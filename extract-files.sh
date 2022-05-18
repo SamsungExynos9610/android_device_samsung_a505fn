@@ -26,7 +26,7 @@ fi
 set -e
 
 export DEVICE=a505fn
-export DEVICE_COMMON=a50-common
+export DEVICE_COMMON=exynos9610-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

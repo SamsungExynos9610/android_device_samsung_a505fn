@@ -14,7 +14,7 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/a50-common/BoardConfigCommon.mk
+include device/samsung/exynos9610-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
 include vendor/samsung/a505fn/BoardConfigVendor.mk
